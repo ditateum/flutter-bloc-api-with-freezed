@@ -1,6 +1,10 @@
 part of 'game_data_bloc.dart';
 
-@freezed
-class GameDataEvent with _$GameDataEvent {
-  const factory GameDataEvent.started() = _Started;
+class GameDataEvent extends Equatable {
+  const GameDataEvent();
+
+  @override
+  List<Object?> get props => [];
 }
+
+class LoadGameDataEvent extends GameDataEvent {}
