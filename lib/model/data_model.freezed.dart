@@ -30,14 +30,14 @@ class _$DataModelTearOff {
       required String image,
       required String description,
       required String instructions,
-      required String openGiveawayUrl,
-      required String publishedDate,
+      required String open_giveaway_url,
+      required String published_date,
       required String type,
       required String platforms,
-      required String endDate,
+      required String end_date,
       required int users,
       required String status,
-      required String gamePowerUrl}) {
+      required String gamerpower_url}) {
     return _DataModel(
       id: id,
       title: title,
@@ -46,14 +46,14 @@ class _$DataModelTearOff {
       image: image,
       description: description,
       instructions: instructions,
-      openGiveawayUrl: openGiveawayUrl,
-      publishedDate: publishedDate,
+      open_giveaway_url: open_giveaway_url,
+      published_date: published_date,
       type: type,
       platforms: platforms,
-      endDate: endDate,
+      end_date: end_date,
       users: users,
       status: status,
-      gamePowerUrl: gamePowerUrl,
+      gamerpower_url: gamerpower_url,
     );
   }
 
@@ -74,14 +74,14 @@ mixin _$DataModel {
   String get image => throw _privateConstructorUsedError;
   String get description => throw _privateConstructorUsedError;
   String get instructions => throw _privateConstructorUsedError;
-  String get openGiveawayUrl => throw _privateConstructorUsedError;
-  String get publishedDate => throw _privateConstructorUsedError;
+  String get open_giveaway_url => throw _privateConstructorUsedError;
+  String get published_date => throw _privateConstructorUsedError;
   String get type => throw _privateConstructorUsedError;
   String get platforms => throw _privateConstructorUsedError;
-  String get endDate => throw _privateConstructorUsedError;
+  String get end_date => throw _privateConstructorUsedError;
   int get users => throw _privateConstructorUsedError;
   String get status => throw _privateConstructorUsedError;
-  String get gamePowerUrl => throw _privateConstructorUsedError;
+  String get gamerpower_url => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -101,14 +101,14 @@ abstract class $DataModelCopyWith<$Res> {
       String image,
       String description,
       String instructions,
-      String openGiveawayUrl,
-      String publishedDate,
+      String open_giveaway_url,
+      String published_date,
       String type,
       String platforms,
-      String endDate,
+      String end_date,
       int users,
       String status,
-      String gamePowerUrl});
+      String gamerpower_url});
 }
 
 /// @nodoc
@@ -128,14 +128,14 @@ class _$DataModelCopyWithImpl<$Res> implements $DataModelCopyWith<$Res> {
     Object? image = freezed,
     Object? description = freezed,
     Object? instructions = freezed,
-    Object? openGiveawayUrl = freezed,
-    Object? publishedDate = freezed,
+    Object? open_giveaway_url = freezed,
+    Object? published_date = freezed,
     Object? type = freezed,
     Object? platforms = freezed,
-    Object? endDate = freezed,
+    Object? end_date = freezed,
     Object? users = freezed,
     Object? status = freezed,
-    Object? gamePowerUrl = freezed,
+    Object? gamerpower_url = freezed,
   }) {
     return _then(_value.copyWith(
       id: id == freezed
@@ -166,13 +166,13 @@ class _$DataModelCopyWithImpl<$Res> implements $DataModelCopyWith<$Res> {
           ? _value.instructions
           : instructions // ignore: cast_nullable_to_non_nullable
               as String,
-      openGiveawayUrl: openGiveawayUrl == freezed
-          ? _value.openGiveawayUrl
-          : openGiveawayUrl // ignore: cast_nullable_to_non_nullable
+      open_giveaway_url: open_giveaway_url == freezed
+          ? _value.open_giveaway_url
+          : open_giveaway_url // ignore: cast_nullable_to_non_nullable
               as String,
-      publishedDate: publishedDate == freezed
-          ? _value.publishedDate
-          : publishedDate // ignore: cast_nullable_to_non_nullable
+      published_date: published_date == freezed
+          ? _value.published_date
+          : published_date // ignore: cast_nullable_to_non_nullable
               as String,
       type: type == freezed
           ? _value.type
@@ -182,9 +182,9 @@ class _$DataModelCopyWithImpl<$Res> implements $DataModelCopyWith<$Res> {
           ? _value.platforms
           : platforms // ignore: cast_nullable_to_non_nullable
               as String,
-      endDate: endDate == freezed
-          ? _value.endDate
-          : endDate // ignore: cast_nullable_to_non_nullable
+      end_date: end_date == freezed
+          ? _value.end_date
+          : end_date // ignore: cast_nullable_to_non_nullable
               as String,
       users: users == freezed
           ? _value.users
@@ -194,9 +194,9 @@ class _$DataModelCopyWithImpl<$Res> implements $DataModelCopyWith<$Res> {
           ? _value.status
           : status // ignore: cast_nullable_to_non_nullable
               as String,
-      gamePowerUrl: gamePowerUrl == freezed
-          ? _value.gamePowerUrl
-          : gamePowerUrl // ignore: cast_nullable_to_non_nullable
+      gamerpower_url: gamerpower_url == freezed
+          ? _value.gamerpower_url
+          : gamerpower_url // ignore: cast_nullable_to_non_nullable
               as String,
     ));
   }
@@ -216,14 +216,14 @@ abstract class _$DataModelCopyWith<$Res> implements $DataModelCopyWith<$Res> {
       String image,
       String description,
       String instructions,
-      String openGiveawayUrl,
-      String publishedDate,
+      String open_giveaway_url,
+      String published_date,
       String type,
       String platforms,
-      String endDate,
+      String end_date,
       int users,
       String status,
-      String gamePowerUrl});
+      String gamerpower_url});
 }
 
 /// @nodoc
@@ -244,14 +244,14 @@ class __$DataModelCopyWithImpl<$Res> extends _$DataModelCopyWithImpl<$Res>
     Object? image = freezed,
     Object? description = freezed,
     Object? instructions = freezed,
-    Object? openGiveawayUrl = freezed,
-    Object? publishedDate = freezed,
+    Object? open_giveaway_url = freezed,
+    Object? published_date = freezed,
     Object? type = freezed,
     Object? platforms = freezed,
-    Object? endDate = freezed,
+    Object? end_date = freezed,
     Object? users = freezed,
     Object? status = freezed,
-    Object? gamePowerUrl = freezed,
+    Object? gamerpower_url = freezed,
   }) {
     return _then(_DataModel(
       id: id == freezed
@@ -282,13 +282,13 @@ class __$DataModelCopyWithImpl<$Res> extends _$DataModelCopyWithImpl<$Res>
           ? _value.instructions
           : instructions // ignore: cast_nullable_to_non_nullable
               as String,
-      openGiveawayUrl: openGiveawayUrl == freezed
-          ? _value.openGiveawayUrl
-          : openGiveawayUrl // ignore: cast_nullable_to_non_nullable
+      open_giveaway_url: open_giveaway_url == freezed
+          ? _value.open_giveaway_url
+          : open_giveaway_url // ignore: cast_nullable_to_non_nullable
               as String,
-      publishedDate: publishedDate == freezed
-          ? _value.publishedDate
-          : publishedDate // ignore: cast_nullable_to_non_nullable
+      published_date: published_date == freezed
+          ? _value.published_date
+          : published_date // ignore: cast_nullable_to_non_nullable
               as String,
       type: type == freezed
           ? _value.type
@@ -298,9 +298,9 @@ class __$DataModelCopyWithImpl<$Res> extends _$DataModelCopyWithImpl<$Res>
           ? _value.platforms
           : platforms // ignore: cast_nullable_to_non_nullable
               as String,
-      endDate: endDate == freezed
-          ? _value.endDate
-          : endDate // ignore: cast_nullable_to_non_nullable
+      end_date: end_date == freezed
+          ? _value.end_date
+          : end_date // ignore: cast_nullable_to_non_nullable
               as String,
       users: users == freezed
           ? _value.users
@@ -310,9 +310,9 @@ class __$DataModelCopyWithImpl<$Res> extends _$DataModelCopyWithImpl<$Res>
           ? _value.status
           : status // ignore: cast_nullable_to_non_nullable
               as String,
-      gamePowerUrl: gamePowerUrl == freezed
-          ? _value.gamePowerUrl
-          : gamePowerUrl // ignore: cast_nullable_to_non_nullable
+      gamerpower_url: gamerpower_url == freezed
+          ? _value.gamerpower_url
+          : gamerpower_url // ignore: cast_nullable_to_non_nullable
               as String,
     ));
   }
@@ -329,14 +329,14 @@ class _$_DataModel implements _DataModel {
       required this.image,
       required this.description,
       required this.instructions,
-      required this.openGiveawayUrl,
-      required this.publishedDate,
+      required this.open_giveaway_url,
+      required this.published_date,
       required this.type,
       required this.platforms,
-      required this.endDate,
+      required this.end_date,
       required this.users,
       required this.status,
-      required this.gamePowerUrl});
+      required this.gamerpower_url});
 
   factory _$_DataModel.fromJson(Map<String, dynamic> json) =>
       _$$_DataModelFromJson(json);
@@ -356,25 +356,25 @@ class _$_DataModel implements _DataModel {
   @override
   final String instructions;
   @override
-  final String openGiveawayUrl;
+  final String open_giveaway_url;
   @override
-  final String publishedDate;
+  final String published_date;
   @override
   final String type;
   @override
   final String platforms;
   @override
-  final String endDate;
+  final String end_date;
   @override
   final int users;
   @override
   final String status;
   @override
-  final String gamePowerUrl;
+  final String gamerpower_url;
 
   @override
   String toString() {
-    return 'DataModel(id: $id, title: $title, worth: $worth, thumbnail: $thumbnail, image: $image, description: $description, instructions: $instructions, openGiveawayUrl: $openGiveawayUrl, publishedDate: $publishedDate, type: $type, platforms: $platforms, endDate: $endDate, users: $users, status: $status, gamePowerUrl: $gamePowerUrl)';
+    return 'DataModel(id: $id, title: $title, worth: $worth, thumbnail: $thumbnail, image: $image, description: $description, instructions: $instructions, open_giveaway_url: $open_giveaway_url, published_date: $published_date, type: $type, platforms: $platforms, end_date: $end_date, users: $users, status: $status, gamerpower_url: $gamerpower_url)';
   }
 
   @override
@@ -392,16 +392,16 @@ class _$_DataModel implements _DataModel {
             const DeepCollectionEquality()
                 .equals(other.instructions, instructions) &&
             const DeepCollectionEquality()
-                .equals(other.openGiveawayUrl, openGiveawayUrl) &&
+                .equals(other.open_giveaway_url, open_giveaway_url) &&
             const DeepCollectionEquality()
-                .equals(other.publishedDate, publishedDate) &&
+                .equals(other.published_date, published_date) &&
             const DeepCollectionEquality().equals(other.type, type) &&
             const DeepCollectionEquality().equals(other.platforms, platforms) &&
-            const DeepCollectionEquality().equals(other.endDate, endDate) &&
+            const DeepCollectionEquality().equals(other.end_date, end_date) &&
             const DeepCollectionEquality().equals(other.users, users) &&
             const DeepCollectionEquality().equals(other.status, status) &&
             const DeepCollectionEquality()
-                .equals(other.gamePowerUrl, gamePowerUrl));
+                .equals(other.gamerpower_url, gamerpower_url));
   }
 
   @override
@@ -414,14 +414,14 @@ class _$_DataModel implements _DataModel {
       const DeepCollectionEquality().hash(image),
       const DeepCollectionEquality().hash(description),
       const DeepCollectionEquality().hash(instructions),
-      const DeepCollectionEquality().hash(openGiveawayUrl),
-      const DeepCollectionEquality().hash(publishedDate),
+      const DeepCollectionEquality().hash(open_giveaway_url),
+      const DeepCollectionEquality().hash(published_date),
       const DeepCollectionEquality().hash(type),
       const DeepCollectionEquality().hash(platforms),
-      const DeepCollectionEquality().hash(endDate),
+      const DeepCollectionEquality().hash(end_date),
       const DeepCollectionEquality().hash(users),
       const DeepCollectionEquality().hash(status),
-      const DeepCollectionEquality().hash(gamePowerUrl));
+      const DeepCollectionEquality().hash(gamerpower_url));
 
   @JsonKey(ignore: true)
   @override
@@ -443,14 +443,14 @@ abstract class _DataModel implements DataModel {
       required String image,
       required String description,
       required String instructions,
-      required String openGiveawayUrl,
-      required String publishedDate,
+      required String open_giveaway_url,
+      required String published_date,
       required String type,
       required String platforms,
-      required String endDate,
+      required String end_date,
       required int users,
       required String status,
-      required String gamePowerUrl}) = _$_DataModel;
+      required String gamerpower_url}) = _$_DataModel;
 
   factory _DataModel.fromJson(Map<String, dynamic> json) =
       _$_DataModel.fromJson;
@@ -470,21 +470,21 @@ abstract class _DataModel implements DataModel {
   @override
   String get instructions;
   @override
-  String get openGiveawayUrl;
+  String get open_giveaway_url;
   @override
-  String get publishedDate;
+  String get published_date;
   @override
   String get type;
   @override
   String get platforms;
   @override
-  String get endDate;
+  String get end_date;
   @override
   int get users;
   @override
   String get status;
   @override
-  String get gamePowerUrl;
+  String get gamerpower_url;
   @override
   @JsonKey(ignore: true)
   _$DataModelCopyWith<_DataModel> get copyWith =>

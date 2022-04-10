@@ -13,14 +13,14 @@ class DataModel with _$DataModel {
     required String image,
     required String description,
     required String instructions,
-    required String openGiveawayUrl,
-    required String publishedDate,
+    required String open_giveaway_url,
+    required String published_date,
     required String type,
     required String platforms,
-    required String endDate,
+    required String end_date,
     required int users,
     required String status,
-    required String gamePowerUrl,
+    required String gamerpower_url,
   }) = _DataModel;
 
   factory DataModel.fromJson(Map<String, dynamic> json) =>
