@@ -1,4 +1,5 @@
 import 'package:bloc_api/repositories/game_repository.dart';
+import 'package:bloc_api/view/landing_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         scaffoldBackgroundColor: Colors.black,
       ),
+      home: LandingPage(),
     );
   }
 }

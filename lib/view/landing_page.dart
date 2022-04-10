@@ -1,7 +1,6 @@
-import 'dart:ui';
-
 import 'package:bloc_api/bloc/game_data_bloc.dart';
 import 'package:bloc_api/model/data_model.dart';
+import 'package:bloc_api/view/detail_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:glassmorphism/glassmorphism.dart';
@@ -39,14 +38,21 @@ class LandingPage extends StatelessWidget {
       padding: EdgeInsets.zero,
       itemCount: apiResult.length,
       itemBuilder: (context, index) {
-        final DataModel datamodel = apiResult[index];
+        final DataModel dataModel = apiResult[index];
         return Padding(
           padding: const EdgeInsets.symmetric(
             vertical: 12.0,
             horizontal: 8.0,
           ),
           child: InkWell(
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => DetailPage(dataModel: dataModel),
+                ),
+              );
+            },
             child: SizedBox(
               width: double.infinity,
               child: Stack(
@@ -57,7 +63,7 @@ class LandingPage extends StatelessWidget {
                       height: 230,
                       width: MediaQuery.of(context).size.width / 1.05,
                       fit: BoxFit.cover,
-                      image: NetworkImage(datamodel.image),
+                      image: NetworkImage(dataModel.image),
                     ),
                   ),
                   Positioned(
@@ -98,7 +104,7 @@ class LandingPage extends StatelessWidget {
                             SizedBox(
                               width: double.infinity,
                               child: Text(
-                                datamodel.title,
+                                dataModel.title,
                                 style: const TextStyle(
                                   fontSize: 18,
                                   fontWeight: FontWeight.bold,
@@ -109,7 +115,7 @@ class LandingPage extends StatelessWidget {
                               height: 4,
                             ),
                             Text(
-                              'Platforms: ' + datamodel.platforms,
+                              'Platforms: ' + dataModel.platforms,
                               style: const TextStyle(
                                 fontSize: 14,
                                 fontWeight: FontWeight.w400,
